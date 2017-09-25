@@ -1,8 +1,8 @@
 $(function () {
-  var message = 'Hej,';
+  var message = 'Hej';
   var message2 = 'Jeg hedder Jens. Jeg laver simple og elegante hjemmesider. ';
   var message3 = 'Tjek min';
-  var message4 = 'Portfolio';
+  var message4 = 'portfolio.';
   var index = 0;
   var index2 = 0;
   var index3 = 0;
@@ -32,6 +32,7 @@ $(function () {
         link.attr('href', 'https://jensvk.dk');
         return link;
       });
+  
     }
     else {
       functionIsRunning = false;
